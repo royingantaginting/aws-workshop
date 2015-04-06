@@ -4,7 +4,7 @@ Introduction to Cloud Computing with AWS
 Created by Roy Inganta Ginting &lt;[roy.i.ginting@gdplabs.id](mailto:roy.i.ginting@gdplabs.id)&gt;
 
 ## Goal
-Create highly available web application infrastructure on AWS with load balancer and automatic failover.
+Create highly available web application infrastructure on AWS with load balancing and automatic fail-over.
 
 ## Objectives
 - Knowing what is cloud computing
