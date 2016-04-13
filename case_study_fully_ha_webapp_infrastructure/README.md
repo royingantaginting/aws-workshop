@@ -2,7 +2,7 @@
 We are going to combine ELB, EC2, and RDS to form webapp infrastructure that has no single point of failure (SPOF). All components must be highly available such as ELB, EC2, and RDS. The final result will be as follow ![Architecure](./fully-ha-webapp.png)
 
 # Implementation Plan
-We are going to reuse EC2, RDS, and ELB that have been created before. Make sure they are launched properly. Follow [launch EC2 instance](/launch_ec2_instance/README.html#launching-an-ec2-instance), [launch RDS instance](/launch_rds_instance/README.html#launching-an-rds-instance), and [launch ELB instance](//launch_elb_instance/README.html#launching-an-elb-instance) to launch EC2, RDS, and ELB respectively.
+We are going to reuse EC2, RDS, and ELB that have been created before. Make sure they are launched properly. Follow [launch EC2 instance](../launch_ec2_instance/README.html#launching-an-ec2-instance), [launch RDS instance](../launch_rds_instance/README.html#launching-an-rds-instance), and [launch ELB instance](../launch_elb_instance/README.html#launching-an-elb-instance) to launch EC2, RDS, and ELB respectively.
 
 We are going to use laravel 5 sample application to test this infrastructure. To make deployment easier, we are using prebuild docker image at [https://registry.hub.docker.com/u/gdplabs/workshop-sample-laravel5/](https://registry.hub.docker.com/u/gdplabs/workshop-sample-laravel5/).
 
